@@ -7,8 +7,19 @@
       "first-quart Title last-quart"
       "wax-cres full wax-gib"
       "wane-cres new wane-gib";
+    place-items: center;
+    background-color: rgb(176, 173, 173);
+    border: 3px solid black;
+    border-radius: 2%;
   }
-  
+  h2 {
+    font-size: xx-large;
+    font-weight: 900;
+  }
+  img {
+    border-radius: 5%;
+    border: 2px solid rgb(77, 76, 76);
+  }
   .Title { grid-area: Title; }
   
   .first-quart { grid-area: first-quart; }
